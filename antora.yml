@@ -1,0 +1,16 @@
+site:
+  title: My Antora Site
+  start_page: index.adoc
+
+content:
+  sources:
+    - url: https://github.com/seblod90/antora
+      branches: main
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+
+output:
+  dir: ./public
